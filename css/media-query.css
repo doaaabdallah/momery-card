@@ -1,0 +1,26 @@
+/* Smart Phones and Tablets*/
+
+@media (max-width: 767px) {
+   
+    
+}
+
+
+/* Small Screens*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+/* Medium Screens */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'AdobeNaskh-Medium';
+    src: url(../fonts/AdobeNaskh-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'RB-Regular';
+    src: url(../fonts/RB-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RB-Bold1';
+    src: url(../fonts/RB-Bold1.ttf) format('truetype');
+}
+body{
+    font-family: 'AdobeNaskh-Medium';
+    float: right;
+}
+.container{
+border: 15px solid #656769;
+border-radius: 12px; 
+width: 50%;
+margin-right: auto;
+background-color:#656769;
+margin-top: 10%;
+transition-property: background-color;
+transition-duration: 3s;
+    
+}
+.title{
+    background-color:#607d8b; 
+    border-radius: 12px;
+    width: 70%;
+    float: right;
+}
+.title h2{
+     color: #fff;
+     padding-top: 5px;
+     float: right; 
+}
+.h22{
+     padding-top: 1px ;
+}
+.row .col-md-4{
+    border:10px solid #656769;
+    background-color: black ;
+    border-radius: 19px;
+}
+.row .col-md-4 .dod{
+    width: 100px;
+    background-color: aqua;
+    height: 10%;
+}
+.disable{
+    visibility: hidden;
+}
+.show{
+     visibility:visible;
+}
+
+.colm{
+    
+    text-align: center;
+    height: 150px;
+}
+.animated {
+  animation-duration: 5.5s;
+  animation-fill-mode: both;
+ /* animation-iteration-count: infinite;*/
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+.bounce {
+  animation-name: bounce;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+
+
+
+
+
